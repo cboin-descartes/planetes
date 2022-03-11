@@ -70,6 +70,9 @@
 
 
 	function view($temp, $datatab=array()){
+		
+		//On envoit le titre de la page HTML à la vue
+		// Ici titre par défaut au cas où
 		if(!isset($datatab['title'])){
 			$title="Pas de titre";
 		}
