@@ -6,7 +6,7 @@
 			echo '<tr>
 				<td><a href="/router.php/planet/'.$key . '">' . $planet['name'] . '</a></td>
 				<td>' . $planet['circ'] . '</td>
-				<td><a href="'.$base_url.'/router.php/delete/'.$key . '">Supprimer</a></td>
+				<td><a href="/router.php/delete/'.$key . '">Supprimer</a></td>
 				</tr>';
 		}
 ?>
